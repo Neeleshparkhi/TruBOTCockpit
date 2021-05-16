@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test1(failed)">
+    <classes>
+      <class name="batchExecution.DriverScript">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="testMethod" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- batchExecution.DriverScript -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

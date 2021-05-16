@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-25T10:02:07Z" name="Suite" finished-at="2020-09-25T10:11:09Z" duration-ms="541392">
+    <groups>
+    </groups>
+    <test started-at="2020-09-25T10:02:07Z" name="Test1" finished-at="2020-09-25T10:11:09Z" duration-ms="541392">
+      <class name="batchExecution.DriverScript">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:batchExecution.DriverScript@222114ba]" started-at="2020-09-25T15:32:06Z" name="beforeSuite" finished-at="2020-09-25T15:32:07Z" duration-ms="1062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="testMethod(java.lang.String, java.util.HashMap)[pri:0, instance:batchExecution.DriverScript@222114ba]" started-at="2020-09-25T15:32:14Z" name="testMethod" data-provider="data-provider" finished-at="2020-09-25T15:35:16Z" duration-ms="181187" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[310]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{310={TestCaseInfo1={ScriptDescription=Verify while adding the process Guid and Name Displays Properly, ScriptFunctionality=Verifying Process GUID and Name}, Login2={LoginID=Admin, Password=Admin}, Vlogin3={}, clickProcess4={}, clickAddProcess5={}, clickAddProcessFile6={ProcessFilePath=./src/main/resources/resources/NSE_India_3.1.0.zip}, verifyProcessGuid7={}, verifyProcessName8={}}}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="exceptions.ElementNotFoundException">
+            <full-stacktrace>
+              <![CDATA[exceptions.ElementNotFoundException
+	at utility.FL_GeneralUtils.waitUntil(FL_GeneralUtils.java:425)
+	at functionalLibrary.Login.loginUser(Login.java:51)
+	at batchExecution.DriverScript.invokeSwitch(DriverScript.java:358)
+	at batchExecution.DriverScript.testMethod(DriverScript.java:331)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- exceptions.ElementNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="testMethod(java.lang.String, java.util.HashMap)[pri:0, instance:batchExecution.DriverScript@222114ba]" started-at="2020-09-25T15:35:16Z" name="testMethod" data-provider="data-provider" finished-at="2020-09-25T15:38:12Z" duration-ms="176057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[312]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{312={TestCaseInfo1={ScriptDescription=Verify Active To date filed is By default set as Current date + 30 days, ScriptFunctionality=Verifying Active To date Field}, Login2={LoginID=Admin, Password=Admin}, Vlogin3={}, clickProcess4={}, clickAddProcess5={}, verifyProcessActiveToDate6={NoOfDays=30}}}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="testMethod(java.lang.String, java.util.HashMap)[pri:0, instance:batchExecution.DriverScript@222114ba]" started-at="2020-09-25T15:38:12Z" name="testMethod" data-provider="data-provider" finished-at="2020-09-25T15:41:09Z" duration-ms="176894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[314]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{314={TestCaseInfo1={ScriptDescription=Verify Active from date filed is By default set as Current date, ScriptFunctionality=Verifying Active from date Field}, Login2={LoginID=Admin, Password=Admin}, Vlogin3={}, clickProcess4={}, clickAddProcess5={}, verifyProcessActiveFromDate6={NoOfDays=0}}}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:batchExecution.DriverScript@222114ba]" started-at="2020-09-25T15:41:10Z" name="afterSuite" finished-at="2020-09-25T15:41:15Z" duration-ms="4849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- batchExecution.DriverScript -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

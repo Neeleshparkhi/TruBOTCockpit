@@ -1,0 +1,3 @@
+09/25/2020 15:35,310,Verifying Process GUID and Name,Verify while adding the process Guid and Name Displays Properly,FAILED
+09/25/2020 15:38,312,Verifying Active To date Field,Verify Active To date filed is By default set as Current date + 30 days,PASSED
+09/25/2020 15:40,314,Verifying Active from date Field,Verify Active from date filed is By default set as Current date,PASSED

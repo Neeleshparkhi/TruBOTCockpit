@@ -1,0 +1,44 @@
+Sep 25, 2020 3:40:31 PM utility.FL_GeneralUtils waitUntil
+INFO: Successfully Found User Name Text box
+Sep 25, 2020 3:40:31 PM utility.FL_GeneralUtils setText
+INFO: Successfully Entered Text Admin at UserName TextBox on Login Page
+Sep 25, 2020 3:40:31 PM utility.FL_GeneralUtils setText
+INFO: Successfully Entered Text Admin at Password TextBox on Login Page
+Sep 25, 2020 3:40:32 PM utility.FL_GeneralUtils waitUntil
+INFO: Successfully Found Sign In Button after Password element to be visible
+Sep 25, 2020 3:40:32 PM utility.FL_GeneralUtils waitUntil
+INFO: Successfully Found Sign In Button after Password element to be clickable
+Sep 25, 2020 3:40:32 PM utility.FL_GeneralUtils clickOnElement
+INFO: successfully clicked on the Element: Sign In Button after Password
+Sep 25, 2020 3:40:51 PM utility.FL_GeneralUtils isDisplayed
+INFO: Successfully Found Dashboard Page is Displayed on UI
+Sep 25, 2020 3:40:51 PM functionalLibrary.Login verifyLogin
+INFO: Sucessfully verify Login is succesfull
+Sep 25, 2020 3:40:51 PM functionalLibrary.Login loginUser
+FINE: Login to Trubot cockpit Performed Successfully
+Sep 25, 2020 3:40:51 PM utility.FL_GeneralUtils isDisplayed
+INFO: Successfully Found Dashboard Page is Displayed on UI
+Sep 25, 2020 3:40:51 PM functionalLibrary.Login verifyLogin
+INFO: Sucessfully verify Login is succesfull
+Sep 25, 2020 3:40:52 PM utility.FL_GeneralUtils waitUntil
+INFO: Successfully Found wait for element to be visible
+Sep 25, 2020 3:40:52 PM utility.FL_GeneralUtils mouserHover
+INFO: successfully dragged the Mouser Pointer one Element: Bot Management Button on Dashboard
+Sep 25, 2020 3:40:53 PM utility.FL_GeneralUtils waitUntil
+INFO: Successfully Found Process Button on Dashboard element to be visible
+Sep 25, 2020 3:40:53 PM utility.FL_GeneralUtils waitUntil
+INFO: Successfully Found Process Button on Dashboard element to be clickable
+Sep 25, 2020 3:40:53 PM utility.FL_GeneralUtils clickOnElement
+INFO: successfully clicked on the Element: Process Button on Dashboard
+Sep 25, 2020 3:40:57 PM utility.FL_GeneralUtils waitUntil
+INFO: Successfully Found Add process Button element to be visible
+Sep 25, 2020 3:40:57 PM utility.FL_GeneralUtils waitUntil
+INFO: Successfully Found Add process Button element to be clickable
+Sep 25, 2020 3:40:57 PM utility.FL_GeneralUtils clickOnElement
+INFO: successfully clicked on the Element: Add process Button
+Sep 25, 2020 3:40:57 PM utility.FL_GeneralUtils findElement
+INFO: Successfully found Active To date on Add Process form on The Screen
+Sep 25, 2020 3:40:57 PM functionalLibrary.Process verifyProcessActiveFromDate
+INFO: Succesly verify Active from Date as Current date  as 25-Sep-2020
+Sep 25, 2020 3:40:57 PM batchExecution.DriverScript batchResult
+INFO: 314 : Verify Active from date filed is By default set as Current date PASSED

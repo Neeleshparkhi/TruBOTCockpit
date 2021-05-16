@@ -1,0 +1,2 @@
+Sep 25, 2020 3:35:03 PM exceptions.ElementNotFoundException <init>
+SEVERE: Exception occured at wait Until User Name Text box : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.name: Username (tried for 30 second(s) with 500 milliseconds interval)
